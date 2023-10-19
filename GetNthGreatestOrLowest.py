@@ -1,4 +1,6 @@
-def getNthLowest(nums, level):
+# By default this function will find the Nth lowest number passed through it. If the line "nums.sort()" is changed to "nums.sort(reverse="True") this will change, and then the function will find the Nth greatest number.
+
+def getNthGreatestOrLowest(nums, level):
     # Levellist (type: list) will be used to arrange all numbers (integers/ floats) in ascending order. It will not have any repeated elements.
     # x (type: integer) will be used in a while loop later on in the code to cycle through a list.
     levellist = [""]
